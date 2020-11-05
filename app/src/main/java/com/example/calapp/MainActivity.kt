@@ -48,19 +48,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             if (v.id == R.id.button1) {
                 val result = value1 + value2
-                textView.text = result.toString()
+
                 intent.putExtra("result", result.toString())
             } else if (v.id == R.id.button2) {
                 val result = value1 - value2
-                textView.text = result.toString()
+
                 intent.putExtra("result", result.toString())
             } else if (v.id == R.id.button3) {
                 val result = value1 * value2
-                textView.text = result.toString()
                 intent.putExtra("result", result.toString())
             } else if (v.id == R.id.button4) {
                 val result = value1 / value2
-                textView.text = result.toString()
+
                 intent.putExtra("result", result.toString())
 
 
